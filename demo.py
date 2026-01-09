@@ -8,7 +8,7 @@ import re
 # ======================
 # CONFIG
 # ======================
-CLASS_REP_PHONE = "2349077352809"  # WhatsApp number (no +)
+CLASS_REP_PHONE = "2347046149546"  # WhatsApp number (no +)
 CSV_FILE = "attendance.csv"
 
 st.set_page_config(page_title="Class Attendance", layout="centered")
@@ -76,4 +76,5 @@ Arrival Time: {arrival_time}
             f"📲 **[Send Attendance to Class Rep on WhatsApp]( {whatsapp_link} )**",
             unsafe_allow_html=True
         )
+
 
